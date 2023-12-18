@@ -250,7 +250,7 @@
 .ex-12-bottom-white,
 .ex-13-bottom-white {
     position: absolute;
-    bottom: -10px;
+    bottom: -20px;
     right: 20%;
     background: #f5f5f5;
     width: 60px;
@@ -296,3 +296,58 @@
 }
 
 /* Fine esercizio dodici */
+
+/* Esercizio tredici */
+
+.ex-13-top-white {
+    animation-name: quadratogira;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.ex-13-bottom-white {
+    animation-name: quadratogira2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes quadratogira {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    20% {
+        top: -10px;
+        left: 85%;
+    }
+
+    40% {
+        left: 85%;
+        top: 50px;
+    }
+
+    60% {
+        left: -10%;
+        top: 50px;
+    }
+
+    80% {
+        left: -10%;
+        top: -10px;
+    }
+}
+
+@keyframes quadratogira2 {
+    0% {
+        bottom: -20px;
+        right: 20%;
+    }
+
+    25% {
+        bottom: -20px;
+        left: calc(100% - 60px);
+    }
+}
+
+/* Fine esercizio tredici */
