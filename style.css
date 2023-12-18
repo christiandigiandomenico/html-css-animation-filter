@@ -29,17 +29,31 @@
 
 /* Fine esercizio due */
 
+/* Esercizio tre */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: 0.5s ease;
 }
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+/* Fine esercizio tre */
+
+/* Esercizio quattro */
 
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* Fine esercizio quattro */
 
 .ex-5-square {
     margin: 20px;
