@@ -103,6 +103,19 @@
 
 /* Fine esercizio sette */
 
+/* Esercizio otto */
+
+.ex-8-img {
+    transition: 0.5s ease;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.5) brightness(1.5);
+    border-radius: 25%;
+}
+
+/* Fine esercizio otto */
+
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
