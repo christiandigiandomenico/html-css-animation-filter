@@ -19,6 +19,12 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 0.5s ease;
+}
+
+.ex-2-square:active {
+    transform: scale(2);
+    width: 200px;
 }
 
 /* Fine esercizio due */
