@@ -323,18 +323,18 @@
     }
 
     40% {
+        top: 60px;
         left: 85%;
-        top: 50px;
     }
 
     60% {
-        left: -10%;
-        top: 50px;
+        top: 60px;
+        left: -15%
     }
 
     80% {
-        left: -10%;
         top: -10px;
+        left: -15%;
     }
 }
 
@@ -344,9 +344,24 @@
         right: 20%;
     }
 
-    25% {
+    20% {
         bottom: -20px;
-        left: calc(100% - 60px);
+        right: calc(100% - 40px);
+    }
+
+    40% {
+        bottom: 60px;
+        right: calc(100% - 40px);
+    }
+
+    60% {
+        bottom: 60px;
+        right: -15%;
+    }
+
+    80% {
+        bottom: -20px;
+        right: -15%;
     }
 }
 
