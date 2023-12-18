@@ -161,6 +161,48 @@
 
 /* Fine esercizio dieci */
 
+/* Esercizio undici */
+
+.ex-11-icon:hover {
+    animation-name: giragira;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes giragira {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    16% {
+        transform: rotate(90deg);
+    }
+
+    32% {
+        transform: rotate(180deg);
+    }
+
+    48% {
+        transform: rotate(270deg);
+    }
+
+    64% {
+        transform: rotate(180deg);
+    }
+
+    84% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+
+}
+
+/* Fine esercizio undici */
+
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
@@ -214,3 +256,7 @@
     width: 60px;
     height: 20px;
 }
+
+/* */
+
+/* */
