@@ -85,15 +85,23 @@
 
 /* Esercizio Sei */
 
-.ex-6-img {
-    transition: 0.5s ease;
-}
-
 .ex-6-img:hover {
     filter: grayscale(1)
 }
 
 /* Fine esercizio Sei */
+
+/* Esercizio sette */
+
+.ex-7-img {
+    transition: 0.5s ease;
+}
+
+.ex-7-img:hover {
+    filter: contrast(1.5) brightness(1.5);
+}
+
+/* Fine esercizio sette */
 
 .ex-6-img,
 .ex-7-img,
