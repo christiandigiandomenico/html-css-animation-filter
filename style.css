@@ -62,12 +62,26 @@
 
 /* Fine esercizio quattro */
 
+/* Esercizio cinque */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+
+    transition: 0.5s ease;
 }
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/* Fine esercizio cinque */
 
 .ex-6-img,
 .ex-7-img,
